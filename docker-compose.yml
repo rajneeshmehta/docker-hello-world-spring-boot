@@ -2,8 +2,7 @@ version: "3.0"
 
 services:
   hello-world:
-    build: 
-      context: ./
-      dockerfile: Dockerfile
+    image: rajneeshmehta93/spring-boot-demo:github
+    restart: always
     ports:
       - 8080:8080
